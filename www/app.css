@@ -1,0 +1,91 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;700&family=Arimo:wght@400;700&display=swap');
+
+/* HEADER */
+body {
+    background-color: #F0F4EF;
+}
+
+.navbar-default {
+    background-color:#1C364A;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #E8EEEE;
+    font-family: "Archivo", sans-serif;
+}
+.navbar-default .navbar-brand:hover {
+    color: #E8EEEE;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #89A7A7;
+    margin: 0 20px;
+    font-family: "Archivo", sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #89A7A7;
+    text-decoration: dashed underline;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    text-decoration: underline;
+    color: #E8EEEE;
+    background-color: #1C364A;
+}
+
+
+/* INPUTS */
+
+#sidebar.col-sm-3 {
+    background-color: #89A7A7;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    font-family: "Arimo", sans-serif;
+}
+#sidebar.col-sm-3 h3 {
+    color: black;
+    font-weight: bold;
+}
+
+#waitInput h3 {
+    margin-top: 50px;
+    font-family: "Arimo", sans-serif;
+}
+
+[id$='1'] div.panel-heading {
+    background-color: #90AA9A;
+    /* color: black; */
+    border-color: black;
+}
+[id$='1'] h3.panel-title {
+    color: black;
+    font-family: "Arimo", sans-serif;
+}
+[id$='1'] i {
+    color: black;
+}
+
+.nav>li>a {
+    color: black;
+    font-family: "Arimo", sans-serif;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: black;
+    background-color: #BFCC94;
+    font-family: "Arimo", sans-serif;
+}
+
+/* FOOTER */
+div#footer {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arimo", sans-serif;
+}

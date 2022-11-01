@@ -1,0 +1,66 @@
+Variable,Type,Categories,Missing_Value,Left_Right_Side,Left_Label,Right_Label,Left_Right_Approach
+SVAD_identifier,other,,,,,,
+SEX,other,,,,,,
+agey,x,,-1,,,,
+FDL,continuous,,-1,end,_L,_R,left
+FMSB,continuous,,-1,end,_L,_R,left
+FDB,continuous,,-1,end,_L,_R,left
+TDL,continuous,,-1,end,_L,_R,left
+TPB,continuous,,-1,end,_L,_R,left
+TMSB,continuous,,-1,end,_L,_R,left
+TDB,continuous,,-1,end,_L,_R,left
+FBDL,continuous,,-1,end,_L,_R,left
+HDL,continuous,,-1,end,_L,_R,left
+HPB,continuous,,-1,end,_L,_R,left
+HMSB,continuous,,-1,end,_L,_R,left
+HDB,continuous,,-1,end,_L,_R,left
+RDL,continuous,,-1,end,_L,_R,left
+RPB,continuous,,-1,end,_L,_R,left
+RMSB,continuous,,-1,end,_L,_R,left
+RDB,continuous,,-1,end,_L,_R,left
+UDL,continuous,,-1,end,_L,_R,left
+UMSB,continuous,,-1,end,_L,_R,left
+max_M1,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+max_M2,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+max_M3,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+max_PM1,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+max_PM2,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+max_C,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+max_I1,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+max_I2,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_M1,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_M2,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_M3,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_PM1,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_PM2,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_C,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_I1,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+man_I2,ordinal,1 2 3 4 5 6 7 8 9 10 11 {12 13},-1,end,_L,_R,highest
+FH_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+FGT_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+FLT_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+FDE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+TPE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+TDE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+FBPE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+FBDE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+HH_Oss,ordinal,0 1,-1,end,_L,_R,highest
+HGT_Oss,ordinal,0 1,-1,end,_L,_R,highest
+HLT_Oss,ordinal,0 1,-1,end,_L,_R,highest
+HPE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+HC_Oss,ordinal,0 1,-1,end,_L,_R,highest
+HT_Oss,ordinal,0 1,-1,end,_L,_R,highest
+HLE_Oss,ordinal,0 1,-1,end,_L,_R,highest
+HDE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+HME_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+RPE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+RDE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+UPE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+UDE_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+CT_EF,ordinal,0 1 12 2 23 3 4,-1,end,_L,_R,highest
+CC_Oss,ordinal,0 1 2 3 4 5 6 7 8,-1,,,,
+TC_Oss,ordinal,0 1 2 3 4 5 6 7,-1,,,,
+ISPR_EF,ordinal,0 1 2 ,-1,end,_L,_R,highest
+ILIS_EF,ordinal,0 1 2 ,-1,end,_L,_R,highest
+PC_Oss,ordinal,0 1 ,-1,end,_L,_R,highest
+IC_EF,ordinal,0 1 2 3,-1,end,_L,_R,highest

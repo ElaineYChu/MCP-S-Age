@@ -1,0 +1,57 @@
+---
+title: "MCP-S-Age-About"
+author: "Kyra E. Stull"
+date: "Sys.Date()"
+output: html_document
+---
+
+# Overview
+
+MCP-S-Age communicates with R (R Core Team, 2022) to employ a mixed cumulative probit algorithm using long bone measurements, dental development, and/or epiphsyeal fusion to produce subadult age estimations. MCP-S-Age was funded by the National Institute of Justice (NIJ Award 2015-DN-BX-K409 and NIJ Award 2017-DN-BX-0144) and the National Science Foundation (BCS-1551913). 
+
+If there is data available that is either comparable to the descriptions in the Measurements section, or collected using `KSCollect`, please contact Kyra Stull to discuss incorporating the samples into the application.
+
+Kyra E. Stull, PhD 
+Assistant Professor 
+Department of Anthropology 
+University of Nevada, Reno 
+kstull@unr.edu 
+
+MCP-S-Age is a a Shiny app. The latest release is hosted at:
+https://kyra-stull.shinyapps.io/mcp-s-age/
+
+
+Citing MCP-S-Age:
+Kyra E. Stull, Elaine Y. Chu (2022). MCP-S-Age: a GUI to estimate subadult skeletal age. R package version 1.0.
+
+
+## Model Options
+The current version of MCP-S-Age only provides models using a pooled-sex US reference sample. Future models will be optimized to offer the user the option to choose the appropriate _**1) reference sample and 2) sample demographics.**_
+
+
+### The References
+
+There is currently one reference sample from which subadult age estimation models were built; in the future, the use can use any single group or combination of the reference samples. There will also be a `Global` option that uses models optimized from pooling all samples together, containing the greatest population and economic variation. This option should be used if the user is not confident in choosing an appropriate reference sample. The reference sample includes: United States.
+
+
+### The Demographics
+
+The user also has the option to add "Known Age" to help validate MCP-S-Age age estimates. If a "Known Age" is input, the resulting plot in the output tab will plot the known age against the posterior density distribution for age calculated from the mixed cumulative probit. 
+
+### Prior
+
+A prior distribution of a parameter is the probability distribution that represents the uncertainty before the current data are evaluated. Currently, the system is operating on an offset mixture of Weibull distributions. 
+
+
+## Measurements and Scores
+
+All skeletal measurements, dental development, and epiphyseal fusion scores are outlined in a modified protocol found at the following URL: https://doi.org/10.5281/zenodo.5348391. 
+
+**Note for Epiphyseal Fusion:** Epiphyseal Fusion scores were expanded use with  medical imaging. If using dry bone, please follow the collapsed stages. 
+
+
+## Acknowledgements
+
+The original software programmer, Glenn Eanes, the statistician, Michael Price, and the current software programmer and statistician, Elaine Chu, helped  bring this concept to life. A huge thank you to all of our collaborators and contributors. Ultimately, none of this would have been possible without the funding provided by the National Institute of Justice and the National Science Foundation. 
+
+
