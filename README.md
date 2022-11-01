@@ -5,7 +5,7 @@ MCP-S-Age is a graphical user interface (GUI) to provide methods of subadult ske
 This application is one product of the research of Kyra Stull, PhD (http://www.kyrastull.weebly.com), an Assistant Professor in the Department of Anthropology at the University of Nevada, Reno. Associated citations / articles are linked at the bottom of this document. 
 
 Please cite this application as: 
-> Stull, Kyra E., & Chu, Elaine Y. (2022). MCP-S-Age: a GUI to estimate age from subadult skeletal remains (v0.2.2). Zenodo. https://doi.org/10.5281/zenodo.5601936	
+> Stull, Kyra E., & Chu, Elaine Y. (2022). MCP-S-Age: a GUI to estimate age from subadult skeletal remains (vx.x.x). Zenodo. https://doi.org/xx.xxxx/zenodo.xxxxxx
 
 The online version of MCP-S-Age is available at: https://kyra-stull.shinyapps.io/MCP-S-Age
 
@@ -22,7 +22,7 @@ git clone https://github.com/ElaineYChu/MCP-S-Age
 
 ## Usage
 
-**TO RUN MCP-S-Age IN RSTUDIO: **  
+**TO RUN MCP-S-Age IN RSTUDIO:**  
 1. Locate the "mcp-s-age" folder in your system and the file called "ui.R".
 2. Open the file with RStudio.
 3. Locate and press the "Run App" button at the top-right corner of the "ui.R" script.
