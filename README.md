@@ -5,7 +5,7 @@ MCP-S-Age is a graphical user interface (GUI) to provide methods of subadult ske
 This application is one product of the research of Kyra Stull, PhD (http://www.kyrastull.weebly.com), an Assistant Professor in the Department of Anthropology at the University of Nevada, Reno. Associated citations / articles are linked at the bottom of this document. 
 
 Please cite this application as: 
-> Stull, Kyra E., & Chu, Elaine Y. (2022). MCP-S-Age: a GUI to estimate age from subadult skeletal remains (vx.x.x). Zenodo. https://doi.org/xx.xxxx/zenodo.xxxxxx
+> Stull, Kyra E., & Chu, Elaine Y. (2022). MCP-S-Age: a GUI to estimate age from subadult remains (vx.x.x). [![DOI](https://zenodo.org/badge/{560529380}.svg)](https://zenodo.org/badge/latestdoi/{560529380})
 
 The online version of MCP-S-Age is available at: https://kyra-stull.shinyapps.io/MCP-S-Age
 
