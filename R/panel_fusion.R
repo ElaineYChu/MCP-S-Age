@@ -144,6 +144,10 @@ fusion_panel <- withTags({
                                         selectInput("ILIS_EF_R", NULL, choices = c("(Right)" = NA, "No union (0)" = 0, "Partial union (1)" = 1, "Complete union (2)" = 2), selectize = TRUE)
                                       ),
                                       div(class = "col-xs-6 col-sm-4 col-md-3 col-lg-3",
+                                        selectInput("IC_EF_L", "Iliac crest", choices = four_stages_L, selectize = TRUE),
+                                        selectInput("IC_EF_R", NULL, choices = four_stages_R, selectize = TRUE)
+                                        ),
+                                      div(class = "col-xs-6 col-sm-4 col-md-3 col-lg-3",
                                         selectInput("PC_Oss_L", "Patella", choices = c("(Left)" = NA, "Absent (0)" = 0, "Present (1)" = 1), selectize = TRUE),
                                         selectInput("PC_Oss_R", NULL, choices = c("(Right)" = NA, "Absent (0)" = 0, "Present (1)" = 1), selectize = TRUE)
                                       )

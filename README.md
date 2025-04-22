@@ -5,7 +5,7 @@ MCP-S-Age is a graphical user interface (GUI) to provide methods of subadult ske
 This application is one product of the research of Kyra Stull, PhD (http://www.kyrastull.weebly.com), an Assistant Professor in the Department of Anthropology at the University of Nevada, Reno. Associated citations / articles are linked at the bottom of this document. 
 
 Please cite this application as: 
-> Stull, Kyra E., & Chu, Elaine Y. (2022). MCP-S-Age: a GUI to estimate age from subadult remains (v.1.00). [![DOI](https://zenodo.org/badge/560529380.svg)](https://zenodo.org/badge/latestdoi/560529380)
+> Stull, Kyra E., & Chu, Elaine Y. (2022). MCP-S-Age: a GUI to estimate age from subadult remains (vx.x.x). [![DOI](https://zenodo.org/badge/{560529380}.svg)](https://zenodo.org/badge/latestdoi/{560529380})
 
 The online version of MCP-S-Age is available at: https://kyra-stull.shinyapps.io/MCP-S-Age
 
@@ -51,10 +51,10 @@ Please make sure that all of these packages are installed in your local system b
 
 # Relevant Publications
 
-Stull, Kyra E., Chu, Elaine Y., Corron, Louise K., Price, Michael H. (*in review*). Mixed Cumulative Probit: A multivariate generalization of transition analysis that accommodates variation in the shape, spread, and structure of data. *Royal Society Open Science*. 
+Stull, Kyra E., Chu, Elaine Y., Corron, Louise K., Price, Michael H. (2023). Mixed Cumulative Probit: A multivariate generalization of transition analysis that accommodates variation in the shape, spread, and structure of data. *Royal Society Open Science 10: 220963*. 
 * Associated source code: https://github.com/ElaineYChu/mcp_s-age_pipeline  
 
-Stull, K.E.; Chu, E.Y.; Corron, L.K.; Price, M.H. Subadult Age Estimation Using the Mixed Cumulative Probit and a Contemporary United States Population. Forensic. Sci. 2022, 2, x. https://doi.org/10.3390/xxxxx  
+Stull, K.E.; Chu, E.Y.; Corron, L.K.; Price, M.H. (2022). Subadult Age Estimation Using the Mixed Cumulative Probit and a Contemporary United States Population. *Forensic. Sci. 2, 741-779*. https://doi.org/10.3390/xxxxx  
 * Associated source code: https://github.com/ElaineYChu/fs_mcp_us
 
 

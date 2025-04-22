@@ -14,6 +14,7 @@ library(yada, quietly = TRUE)
 library(stringr, quietly = TRUE)
 library(doParallel, quietly = TRUE)
 library(DT, quietly = TRUE)
+library(pander, quietly = TRUE)
 
 ## Load additional unique functions and design elements
 source("R/helpers.R")
@@ -109,6 +110,7 @@ shinyServer(function(input, output, session){
       # "TC_Oss" =  ifelse(input$TC_Oss == 1, as.numeric(2), as.numeric(input$TC_Oss)),
       "ISPR_EF_L" = as.numeric(input$ISPR_EF_L), "ISPR_EF_R" = as.numeric(input$ISPR_EF_R),
       "ILIS_EF_L" = as.numeric(input$ILIS_EF_L), "ILIS_EF_R" = as.numeric(input$ILIS_EF_R),
+      "IC_EF_L" = as.numeric(input$IC_EF_L), "IC_EF_R" = as.numeric(input$IC_EF_R),
       "PC_Oss_L" = as.numeric(input$PC_Oss_L), "PC_Oss_R" = as.numeric(input$PC_Oss_R)
     ))
     

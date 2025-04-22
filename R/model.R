@@ -144,11 +144,11 @@ calc_pred <- function(case_vec, refsamp, th_x, xknown, seven) {
   }
   
   # Add column names
-  names(df) <- c("Model Type","Variable","TMLP","Test Accuracy","RMSE","SEE",
+  names(df) <- c("Model Type","Variable","TMNLP","Test Accuracy","RMSE","SEE",
                  "Point Estimate","95%","99%")
   
-  # sort by increasing test mean log posterior (TMLP)
-  df <- df[order(df$TMLP), ]
+  # sort by increasing test mean log posterior (TMNLP)
+  df <- df[order(df$TMNLP), ]
   
   # create master list as final output
   out <- append(result, list(pred_df=df))

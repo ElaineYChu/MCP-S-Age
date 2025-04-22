@@ -85,7 +85,7 @@ univariate,HLT_Oss,ef_n,,US,0.96,4.988,+/-9.72,1.7881
 univariate,HME_EF,ef_n,,US,0.95,2.139,+/-4.15,1.5093
 univariate,HPE_EF,ef_n,,US,0.96,2.532,+/-4.97,1.3885
 univariate,HT_Oss,ef_n,,US,0.95,3.203,+/-6.18,1.7407
-univariate,IC_EF,ef_n,,US,0.87,3.056,+/-5.93,1.7952
+univariate,IC_EF,ef_n,,US,0.97,1.279,+/-5.93,1.7952
 univariate,ILIS_EF,ef_n,,US,0.94,2.738,+/-5.34,1.6424
 univariate,ISPR_EF,ef_n,,US,0.93,3.045,+/-5.91,1.7033
 univariate,PC_Oss,ef_n,,US,0.98,4.175,+/-8.14,1.6916

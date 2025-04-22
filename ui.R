@@ -12,9 +12,9 @@ library(shinyjs)
 library(markdown)
 library(yada)
 
-source("R/panel_longbone.R", local = TRUE)
-source("R/panel_dentition.R", local = TRUE)
-source("R/panel_fusion.R", local = TRUE)
+source("R/panel_longbone.R", local=TRUE)
+source("R/panel_dentition.R", local=TRUE)
+source("R/panel_fusion.R", local=TRUE)
           
 tagList(
   useShinyjs(),
@@ -37,7 +37,7 @@ tagList(
                               hr(),
                               h3("Model Options"),
                               selectInput("refsamp","Reference Sample",
-                                          choices=c("Global"="all",
+                                          choices=c(#"Global"="all",
                                                     "USA"="US"),
                                           selected="US")
                               ),

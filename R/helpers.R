@@ -30,7 +30,9 @@ four_stages_L <- c("(Left)" = NA, "Absent (0)" = 0, "Present Unfused (1)" = 1,
 four_stages_R <- c("(Right)" = NA, "Absent (0)" = 0, "Present Unfused (1)" = 1, 
                    "Active Fusion (2)" = 2, "Complete Fusion (3)" = 3)
 
-
+## Dental options
+dent_choices = c("(None)"=NA, "Ci"=1, "Cco"=2, "Coc"=3, "Cr 1/2"=4, "Cr 3/4"=5, "Crc"=6,
+                 "Ri"=7, "R 1/4"=8, "R 1/2"=9, "R 3/4"=10, "Rc"=11, "A 1/2"=12, "Ac"=13)
 
 # UI Extensions: Functions used to add specific HTML attributes to UI elements #
 
